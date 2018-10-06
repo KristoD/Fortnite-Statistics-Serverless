@@ -1,0 +1,25 @@
+{
+  "name": "fortnitelambda",
+  "version": "1.0.0",
+  "description": "An attempt at making my Fortnite-Statistics website serverless!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristoD/Fortnite-Statistics-Serverless.git"
+  },
+  "author": "Kristo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristoD/Fortnite-Statistics-Serverless/issues"
+  },
+  "homepage": "https://github.com/KristoD/Fortnite-Statistics-Serverless#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.5",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "fortnite-api": "^2.14.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  }
+}
